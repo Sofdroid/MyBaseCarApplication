@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:layout_weight="1">
+   
+<LinearLayout 
+	android:id="@+id/layout_dialog_add" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:padding="10dp"
+	android:background="@drawable/nitsthem">
+	 
+	<TextView 
+	    android:text="numéro:" 
+	    android:id="@+id/textViewnummat"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"></TextView>
+	
+	<EditText 
+	    android:id="@+id/editTextnummat"
+	    android:hint="numéro matricule"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"></EditText>
+	
+	<TextView 
+	    android:text="nom:" 
+	    android:id="@+id/textViewnom"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"></TextView>
+	
+	<EditText 
+	    android:id="@+id/editTextnomvoiture"
+	    android:hint="nom de la voiture"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"></EditText>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="marque:" />
+
+	<AutoCompleteTextView
+	    android:id="@+id/spinmarque"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:hint="Marque de la voiture"
+	    android:ems="10" />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="type:" />
+
+	<EditText
+	    android:id="@+id/editTexttype"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:hint="Type de carburant" >
+	</EditText>
+
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="note:" />
+
+	<EditText
+	    android:id="@+id/editTextnote"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="note"
+	    android:ems="10" />
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<Button 
+		    android:text="Ajouter" 
+		    android:textColor="#FF0000FF"
+		    android:id="@+id/buttonAdd"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1">
+		    
+		</Button>
+		
+		<Button
+		    android:id="@+id/buttonCancel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="Annuler"
+		    android:textColor="#FF0000FF" >
+</Button>
+	</LinearLayout>
+	
+</LinearLayout>
+</ScrollView>

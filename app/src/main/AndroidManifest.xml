@@ -1,0 +1,85 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="accueil.nits.com.mybasecarapplication">
+
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+
+        <activity
+            android:name=".AccueilActivity"
+            android:label="Accueil" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ListeVoiture"
+            android:label="Liste voiture" >
+        </activity>
+
+
+        <activity
+            android:name=".ListeRappel"
+            android:label="Liste Rappel" >
+        </activity>
+
+        <activity
+            android:name=".ListeService"
+            android:label="Liste Service" >
+        </activity>
+
+        <activity
+            android:name=".ListeConsommationDeCarburant"
+            android:label="Liste Consommation" >
+        </activity>
+
+
+        <activity
+            android:name=".NotificationRappel"
+            android:label="Notification" >
+        </activity>
+
+        <activity
+            android:name=".Sms_vocale"
+            android:label="Lire sms" >
+        </activity>
+
+        <activity
+            android:name=".IconTextTabsActivity"
+            android:label="Voiture" >
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB4mpPjKEZFPpOK3KjuWGprxDkvkqCCeX4" />
+    </application>
+    <permission
+        android:name="com.nits.activity.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.mymap.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+</manifest>

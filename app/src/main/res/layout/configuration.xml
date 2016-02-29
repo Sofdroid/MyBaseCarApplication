@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="267dp"
+        android:layout_height="118dp"
+        android:layout_x="27dp"
+        android:layout_y="36dp"
+        android:src="@drawable/ccc" />
+
+    <Button
+        android:id="@+id/bexport"
+        android:layout_width="267dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="46dp"
+        android:layout_x="20dp"
+        android:layout_y="230dp"
+        android:background="@drawable/button_exporterss"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/bimport"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="95dp"
+        android:layout_x="21dp"
+        android:layout_y="286dp"
+        android:background="@drawable/button_importerss"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/bparametre"
+        android:layout_width="266dp"
+        android:layout_height="59dp"
+        android:layout_x="21dp"
+        android:layout_y="172dp"
+        android:background="@drawable/button_parametresss"
+        android:gravity="center" />
+
+</AbsoluteLayout>

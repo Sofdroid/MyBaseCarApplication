@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tbalelistrappel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/back" >
+
+    <Button
+        android:id="@+id/bntajouterrappel"
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_ajouter_rappel"
+        android:textColor="#FF0010FF" />
+
+    <ListView
+        android:id="@+id/listViewrappel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+</TableLayout>

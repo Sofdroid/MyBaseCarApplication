@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutaccueil"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/back" >
+
+    <Button
+        android:id="@+id/bservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_liste_service" />
+
+    <Button
+        android:id="@+id/bconsommation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_liste_consommation" />
+
+    <Button
+        android:id="@+id/brappel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_liste_rappel" />
+
+
+    <Button
+        android:id="@+id/bvoiture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_liste_voiture" />
+
+</LinearLayout>

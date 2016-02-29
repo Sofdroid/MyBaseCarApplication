@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/nitsthem"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="42dp"
+            android:text="Type"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edittypeservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:ems="10"
+            android:hint="type de service" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="100dp"
+            android:text="Prix"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editprixservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_x="96dp"
+            android:layout_y="102dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="172dp"
+            android:text="Voiture"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextservicevoiture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="95dp"
+            android:layout_y="165dp"
+            android:hint="pour quel voiture ?"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="17dp"
+            android:layout_y="237dp"
+            android:text="Note"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/editnoteservice"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="18dp"
+            android:layout_weight="0.28"
+            android:layout_x="95dp"
+            android:layout_y="231dp"
+            android:ems="10"
+            android:hint="note" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonenregistrerservice"
+                android:layout_width="120dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="21dp"
+                android:text="Ajouter"
+                android:textColor="#FF0000FF" />
+
+            <Button
+                android:id="@+id/buttonannulerservice"
+                android:layout_width="124dp"
+                android:layout_height="62dp"
+                android:layout_marginBottom="83dp"
+                android:layout_marginRight="18dp"
+                android:text="Annuler"
+                android:textColor="#FF0000FF" />
+        </TableRow>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:baselineAligned="true"
+	
+	>
+
+    <TableRow 
+        android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/textViewidlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ID"
+            android:textColor="#4682B4"
+            android:textStyle="bold" />
+
+		  <TextView
+		      android:id="@+id/textViewnomvoiture"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		      android:layout_x="0dp"
+		      android:layout_y="25dp"
+		      android:text="nom"
+	          android:textColor="#4682B4"
+		      android:textStyle="bold" 
+		      android:gravity="center"/>
+        
+        
+    </TableRow>
+		
+
+    
+    <TableRow 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+           android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/textViewnumvoiture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="num"
+            android:textColor="#4682B4"
+            android:textStyle="bold" />
+
+		  <TextView
+		      android:id="@+id/textViewmarquelistvoiture"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		      android:layout_x="192dp"
+		      android:layout_y="10dp"
+		      android:padding="5px"
+		      android:text="marque" 
+		      android:textColor="#4682B4"
+		      android:gravity="center"
+		      android:textStyle="bold" />
+        
+        
+        
+    </TableRow>
+		  <TextView
+		      android:id="@+id/textViewtypelistvoiture"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		      android:layout_x="109dp"
+		      android:layout_y="26dp"
+		      android:text=" type"
+		      android:textColor="#4682B4"
+		      android:textStyle="bold"  />
+
+
+</TableLayout>

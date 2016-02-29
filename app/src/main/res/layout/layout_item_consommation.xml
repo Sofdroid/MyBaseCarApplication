@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:baselineAligned="true">
+	
+	<TextView 
+	    android:layout_width="wrap_content" 
+	    android:text="ID"
+	    android:textColor="#FF0000FF"
+	    android:textStyle="bold"
+		android:id="@+id/textViewidlistconso" 
+		android:layout_height="wrap_content"
+		android:padding="5px"></TextView>
+
+	<TextView 
+	    android:id="@+id/textViewdatelistconso" 
+	    android:text="date"
+	    android:textStyle="bold"
+	     android:textColor="#FF0000FF"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1"></TextView>
+
+</LinearLayout>
